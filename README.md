@@ -1,4 +1,4 @@
-# https://chivika.github.io/flower-shop/
+# https://chiVika.github.io/flower-shop/
 
 This template should help get you started developing with Vue 3 in Vite.
 
