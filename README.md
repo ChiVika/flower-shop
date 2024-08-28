@@ -6,7 +6,7 @@
 </div>
 <h3>Запуск проекта:</h3>
 <ul>
-  <li>cd [текущая папка в которой лежит проект]</li>
+  <li>cd flower-shop</li>
   <li> npm install</li>
   <li> npm run dev</li>
 </ul>
