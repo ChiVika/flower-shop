@@ -1,5 +1,5 @@
 <template>
-    <div class="Modal" v-if="shows">
+    <div class="Modal" v-if="shows" >
         <p class="Modal__text" > {{ message }}</p>
         <button class="Modal__button" @click="hide">Закрыть</button>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="PP" v-if="active">
+    <div class="PP" v-if="active" @click.self="close">
         <div class="PP__container">
             <div class="PP__block1">
                 <div class="PP__block2">
@@ -97,6 +97,9 @@ export default{
             display: flex;
             margin-bottom: 69px;
             margin-left: auto;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
         }
         &__title{
             @include title;

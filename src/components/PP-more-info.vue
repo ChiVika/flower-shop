@@ -1,9 +1,9 @@
 <template>
-    <div class="PP" v-if="active">
-        <div class="PP__container">
-            <div class="PP__block1">
-                <div class="PP__block2">
-                    <button class="PP__close" @click="close">
+    <div class="PPs" v-if="active" @click.self="close">
+        <div class="PPs__container">
+            <div class="PPs__block1">
+                <div class="PPs__block2">
+                    <button class="PPs__close" @click="close">
                         <img src="@/assets/svg/Close.svg" alt="close" class="PP__img-close">
                     </button>
                     <div class="PP1__picture">
@@ -71,8 +71,8 @@ export default{
 
 </script>
 
-<style lang="scss">
-    .PP{   
+<style lang="scss" >
+    .PPs{   
         position: fixed;
         top: 0px;
         left: 0;

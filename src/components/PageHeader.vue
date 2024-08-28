@@ -16,7 +16,7 @@
       <RouterLink class="page-header__basket" to="/basket">
         <SvgBasket/>
       </RouterLink>
-      <RouterLink class="page-header__lk" to="persanalCabinet">
+      <RouterLink class="page-header__lk" to="/persanalCabinet">
         <img src="@/assets/svg/user.svg" alt="user">
       </RouterLink>
     </nav>
@@ -39,15 +39,15 @@ export default{
 
 <style lang="scss">
 .page-header{
-display: flex;
-position: fixed;
-align-items: center;
-top: 0;
-left: 0;
-width: 100%;
-height: 97px;
-background-color: $hover-pink;
-z-index: 100;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97px;
+  background-color: $hover-pink;
+  z-index: 100;
   &__container{
     @include container;
     align-items: center;
