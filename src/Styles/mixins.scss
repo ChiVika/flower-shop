@@ -1,0 +1,67 @@
+
+@mixin container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1016px;
+    margin: 0 auto;
+}
+
+@mixin title{
+    display: block;
+    margin: 100px auto 64px;
+    color: $brown;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    font-family: $font;
+}
+
+@mixin title1{
+    display: block;
+    margin: 200px auto 64px;
+    color: $brown;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    font-family: $font;
+}
+
+@mixin btn{
+    background-color: $malina;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    &:hover{
+        @media (hover: hover) {
+            background-color: $hover-malina;
+            color: white;
+        }
+    }
+}
+@mixin btn1($color, $bgcolor) {
+    background-color: $bgcolor;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    color: $color;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+@mixin link-catalog-block{
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+@mixin link-catalog-item{
+    width: 100%;
+    height: 223px;
+    max-width: 235px;
+    text-align: center;
+    background-color: $light-pink;
+}

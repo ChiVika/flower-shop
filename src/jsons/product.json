@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 2,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 3,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 4,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 5,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 6,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 7,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 8,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    },
+    {
+        "id": 9,
+        "title": "Товар",
+        "price": 1000,
+        "image": "src/assets/svg/buket1.svg",
+        "old": 2000
+    }
+]
